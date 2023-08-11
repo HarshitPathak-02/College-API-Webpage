@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+        <link rel="icon" href="logo.png">
+        <link rel="stylesheet" href="style.css">
+        <title>Get online college information</title>
+    </head>
+    <body>
+        <div class="main">
+            <div class="sticky_nav">
+                <div class="logo">
+                    <div class="logo">
+                        <a href="index.html" style="margin-bottom: 0.5rem;"><img src="logo.png" alt="Logo"></a>
+                    </div>
+                </div>
+                <div class="sticky_btn">
+                    <button type="button" class="buttonsignup"><i class="fa-solid fa-user"></i>Sign Up</button>
+                    <button type="button" class="buttonlogin"><i class="fa-solid fa-right-to-bracket"></i>Log in</button>
+                </div> 
+            </div>
+            <div class="bg-img">
+                <h1>Colleges At One Click</h1>
+                <div class="search-bar">
+                    <input type="text" placeholder="Search for your state...">
+                    <button class="searchbutton" type="button"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+            </div>
+            <div class="college-list">
+                <h3 style="color: cornflowerblue; font-family: 'Lucida Sans';">The colleges in your state are...</h3>
+                <ul class="list"></ul>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+        <script src="C:\Personal\Web Development\Mini Projects\College API Webpage\app.js"></script>
+    </body>
+</html>

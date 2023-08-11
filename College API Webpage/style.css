@@ -1,0 +1,89 @@
+.main {
+    height: 100vh;
+    display: flex;
+    margin: 0.5rem;
+    flex-direction: column;
+}
+
+.sticky_nav {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom:solid 2px rgb(216, 210, 210);
+    position: sticky;
+    top:0;
+    z-index: 10;
+}
+
+.logo img{
+    width: 4rem;
+}
+
+.logo button {
+    border: none;
+    background-color: white;
+}
+
+.sticky_btn {
+    margin:1rem;
+}
+
+.sticky_btn button {
+    border: none;
+    height: 2rem;
+    background-color: white;
+}
+
+.buttonsignup {
+    margin-right: 0.5rem;
+}
+
+.sticky_btn i {
+    margin-right: 0.4rem;
+}
+
+.bg-img {
+    margin-top: 1rem;
+    height: 30rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+    border-radius: 0.5rem;
+    background-image: url("./assets/college.jpg");
+    background-size:auto;
+    border: 1px solid black;
+}
+
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+}
+
+.search-bar button{
+    margin-left: 0.5rem;
+    height: 2rem;
+    background-color: rgb(208, 203, 203);
+    border: 0.1rem solid black;
+    border-radius: 0.5rem;
+    width: 3rem;
+}
+
+.search-bar input {
+    height: 2rem;
+    width: 30rem;
+    margin-bottom: 20rem;
+    border: 0.1rem solid black;
+    border-radius: 0.5rem;
+}
+
+.college-list {
+    margin-top: 1rem;
+    height: 40rem;
+    background-color: antiquewhite;
+    border: 2px solid black;
+    border-radius: 0.5rem;
+}
+
